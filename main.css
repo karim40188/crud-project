@@ -98,3 +98,13 @@ table {
   width: 100%;
   text-align: center;
 }
+
+@media (max-width: 763px) {
+  .prices input {
+    width: 100%;
+  }
+
+  table thead tr th {
+    font-size: 13px;
+  }
+}

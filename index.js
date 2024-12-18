@@ -59,7 +59,7 @@ function showData() {
     cartona = ""
     for (let i = 0; i < arr.length; i++) {
         cartona += `<tr> 
-        <td>${i} </td>
+        <td>${i}</td>
         <td>${arr[i].title} </td>
         <td>${arr[i].price} </td>
         <td>${arr[i].taxes} </td>
